@@ -5,6 +5,9 @@
     .container {
         max-width: 500px;
     }
+    .title {
+        font-size: 2rem;
+    }
     nav,
     .nav-links>ul {
         flex-direction: column;
@@ -12,9 +15,8 @@
     nav {
         padding-bottom: 0px;
     }
-    .nav-title {
+    .nav-title{
         margin-bottom: 15px;
-        font-size: 2rem;
     }
     .nav-links {
         font-size: 1.25rem;
