@@ -109,8 +109,8 @@ ul>li {
     font-size: 5rem;
 }
 
-/* features styles here */
-.features-content {
+/* teams styles here */
+.teams-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 50px;
@@ -119,7 +119,7 @@ ul>li {
     row-gap: 1.5rem;
 }
 
-.features-img-container {
+.teams-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
