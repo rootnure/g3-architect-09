@@ -33,8 +33,8 @@ body {
     color: #fb9028;
 }
 
-.text-secondary {
-    color: #a8a49f;
+.text-light-gray {
+    color: #727272;
 }
 
 .text-center {
@@ -63,6 +63,7 @@ body {
 .title {
     font-weight: 700;
     font-size: 3rem;
+    color: #131313;
 }
 
 /* header styles */
@@ -107,6 +108,13 @@ ul>li {
 
 .banner-title {
     font-size: 5rem;
+}
+
+/* main styles here */
+main {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* teams styles here */
