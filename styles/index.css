@@ -24,6 +24,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .w-100 {
     width: 100%;
 }
@@ -77,15 +78,18 @@ nav {
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
 .nav-title {
     font-weight: 700;
     font-size: 3rem;
 }
+
 .nav-links>ul {
     display: flex;
     column-gap: 50px;
 }
-ul>li{
+
+ul>li {
     list-style: none;
 }
 
@@ -100,6 +104,7 @@ ul>li{
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
 .banner-title {
     font-size: 5rem;
 }
@@ -111,7 +116,9 @@ ul>li{
     column-gap: 50px;
     align-items: center;
     margin: 50px;
+    row-gap: 1.5rem;
 }
+
 .features-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
