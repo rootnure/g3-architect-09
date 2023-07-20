@@ -50,6 +50,15 @@
         row-gap: 25px;
     }
 
+    .sponsors-img-container {
+        flex-direction: column;
+        row-gap: 1.25rem;
+    }
+
+    .sponsors-img-container img {
+        width: 165px;
+    }
+
 }
 
 /* tablet devices */
