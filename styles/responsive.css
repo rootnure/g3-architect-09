@@ -59,6 +59,9 @@
         width: 165px;
     }
 
+    .footer-content {
+        border-radius: 0;
+    }
 }
 
 /* tablet devices */

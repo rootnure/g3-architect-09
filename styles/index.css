@@ -141,7 +141,7 @@ main {
 }
 
 .facts-cards-container .card {
-    border-radius: 8px;
+    border-radius: 0.5rem;
     border: 1px solid #FF900E;
     padding: 30px;
     width: 200px;
@@ -170,4 +170,19 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+
+/* footer styles here */
+footer {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-content {
+    background-color: #ffc374;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
 }
