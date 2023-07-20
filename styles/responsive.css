@@ -11,7 +11,8 @@
     }
 
     nav,
-    .nav-links>ul {
+    .nav-links>ul,
+    .facts-cards-container {
         flex-direction: column;
     }
 
@@ -40,15 +41,20 @@
     .teams-content {
         grid-template-columns: repeat(1, 1fr);
     }
-
+    
     .teams-img-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .facts-cards-container {
+        row-gap: 25px;
     }
 
 }
 
+/* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-    .teams-content {
+    .teams-content, .facts-cards-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
