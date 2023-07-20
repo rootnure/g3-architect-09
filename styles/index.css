@@ -132,3 +132,31 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
+
+/* fact section styles here */
+.facts-cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.facts-cards-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    width: 200px;
+}
+
+.facts-cards-container .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.facts-cards-container .card-states {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
